@@ -1,0 +1,38 @@
+{ "exercises" : [
+  {
+    "main_muscle": "Chest",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Triceps",
+      "Abdominals",
+      "Serratus Anterior"
+    ],
+    "name": "Push Up",
+    "type": "Push"
+  },
+  {
+    "main_muscle": "Lattisimus",
+    "muscles": [
+      "Biceps",
+      "Trapezius",
+      "Deltoids",
+      "Pectorals",
+      "Rhomboids"
+    ],
+    "name": "Pull Up",
+    "type": "Pull"
+  },
+  {
+    "main_muscle": "Abdominals",
+    "muscles": [
+      "Trapezius",
+      "Deltoids",
+      "Rhomboids",
+      "Pectorals",
+      "Serratus Anterior"
+    ],
+    "name": "Plank",
+    "type": "Hold"
+  }
+]}

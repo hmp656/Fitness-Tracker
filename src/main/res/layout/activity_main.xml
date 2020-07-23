@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/LaunchBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calc"
+        android:onClick="BMICal"/>
+
+    <Button
+        android:id="@+id/LaunchExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Exercises"
+        android:onClick="Exercises"/>
+
+    <Button
+        android:id="@+id/LaunchTrackerLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight Data"
+        android:onClick="LaunchTracker"/>
+
+
+</LinearLayout>
